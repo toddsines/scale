@@ -1,0 +1,18 @@
+name = "scale-films"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Route configuration — update to match your domain
+# route = { pattern = "yourdomain.com/*", zone_name = "yourdomain.com" }
+
+# YouTube API key — set via Cloudflare Dashboard or `wrangler secret put YT_API_KEY`
+# Do NOT put the actual key here; use secrets instead:
+#   wrangler secret put YT_API_KEY
+# Then paste your key when prompted.
+
+# Alternatively, for dev/preview you can use .dev.vars file (gitignored):
+# YT_API_KEY=AIzaSy...
+
+[vars]
+# Non-secret environment variables go here
+# YT_API_KEY should be set as a SECRET, not here
