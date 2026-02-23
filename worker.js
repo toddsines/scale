@@ -20,7 +20,7 @@ const SHARED_CREDITS = [
   { role: 'Director',   name: 'Todd Sines' },
   { role: 'DP',         name: 'Todd Sines' },
   { role: 'Editor',     name: 'Todd Sines' },
-  { role: 'Producer',   name: 'Todd Sines' },
+  { role: 'Assistant Camera',   name: 'Andries Boekelman' },
   { role: 'Mastering',  name: 'Bob Weston' },
   { role: 'Label',      name: 'Nation Records' },
 ];
